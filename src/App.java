@@ -53,10 +53,10 @@ class Produto implements Comparable<Produto> {
 
 
 
-public class App {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        ArrayList<Produto> produtos = new ArrayList<>();
+    public static class App {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            ArrayList<Produto> produtos = new ArrayList<>();
         // Exibe uma mensagem inicial
         System.out.println("Cadastro de produtos");
          // Loop principal do programa, faz com que o usuário fique nesse loop até digitar uma opção válida.
@@ -338,7 +338,7 @@ private static void listarProdutos(Scanner scanner, ArrayList<Produto> produtos)
         System.out.println("\nProdutos cadastrados:");
         for (int i = 0; i < produtos.size(); i++) {
             Produto produto = produtos.get(i);
-            System.out.println((i + 1) + ". Nome: " + produto.getNome() + ", Preço: R$" + produto.getPreco() + ", Disponível?: " + produto.getDisponibilidadeFormatada());
+            System.out.println((i + 1) + ". Nome: " + produto.getNome() + ", Preço: R$" + produto.getPreco() + ", Disponível? " + produto.getDisponibilidadeFormatada());
         }
         
         System.out.println("\nOpções:");
