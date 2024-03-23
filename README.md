@@ -4,7 +4,7 @@
 
 ## O que ele faz?
 
-- 𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐨 de produtos:
+- Cadastro de produtos:
 
     - Nome do produto
     - Descrição do produto 
@@ -12,7 +12,7 @@
     - Disponível para venda (sim / não)
     - Alteração de todos os valores acima
 
- - 𝐋𝐢𝐬𝐭𝐚𝐠𝐞𝐦:
+ - Listagem:
 
     - Colunas da listagem: nome, valor
     - Ordenação por valor do menor para o maior
