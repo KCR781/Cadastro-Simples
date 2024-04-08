@@ -1,6 +1,6 @@
 ## Sobre o Programa
 
-- Este pequeno programa é requerido por um passo opcional de uma empresa de tecnologia
+- Este pequeno programa que fiz para testar meus conhecimentos em Java
 
 ## O que ele faz?
 
